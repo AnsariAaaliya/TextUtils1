@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const [mode, setMode] = useState('light');
+  const [mode, setMode] = useState('dark');
   const togglemode = ()=>{
     if(mode === 'light'){
       setMode ('dark');
